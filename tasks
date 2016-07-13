@@ -25,6 +25,7 @@ _zip() {
 deploy() {
   _zip
 
+  set -e
   _aws lambda update-function-code \
     --function-name slackbot \
     --zip-file fileb://app/deploy/dist.zip
