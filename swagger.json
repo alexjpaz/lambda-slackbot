@@ -1,0 +1,61 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "2016-07-13T09:26:12Z",
+    "title": "alexjpaz.com/slackbot"
+  },
+  "host": "g4vlcenksd.execute-api.us-east-1.amazonaws.com",
+  "basePath": "/prod",
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/{action}": {
+      "post": {
+        "consumes": [
+          "application/json",
+          "application/x-www-form-urlencoded"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "action",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "200 response",
+            "schema": {
+              "$ref": "#/definitions/Empty"
+            }
+          }
+        },
+        "x-amazon-apigateway-integration": {
+          "responses": {
+            "default": {
+              "statusCode": "200"
+            }
+          },
+          "requestTemplates": {
+            "application/json": "{\n    \"action\": \"$input.params().path.action\",\n    \"body\": $input.json(\"$\")\n}",
+            "application/x-www-form-urlencoded": "{\n    \"action\": \"$input.params().path.action\",\n    \"body\": $input.json(\"$\")\n}"
+          },
+          "uri": "arn:aws:apigateway:us-east-1:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-1:048061681813:function:slackbot/invocations",
+          "passthroughBehavior": "never",
+          "httpMethod": "POST",
+          "type": "aws"
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Empty": {
+      "type": "object"
+    }
+  }
+}
