@@ -1,4 +1,5 @@
 
+## Travis CI Deployment Policy
 ```
 {
     "Version": "2012-10-17",
@@ -9,7 +10,7 @@
                 "apigateway:*"
             ],
             "Resource": [
-                "arn:aws:execute-api:__REGION__:__ACOUNT_ID__:__API_ID__/*"
+              "arn:aws:apigateway:__REGION__::/restapis/__API_ID__"
             ]
         },
         {
