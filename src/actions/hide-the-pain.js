@@ -1,4 +1,6 @@
 module.exports = function(event) {
+  var params = event.split("&").map(e => e.split('=')).reduce((p,c) => { p[c[0]] = c[1]; return p; }, {});
+  
   var images = [
     "http://i.imgur.com/LbDUJDk.jpg",
     "http://i.imgur.com/am3qXZ1.jpg",
