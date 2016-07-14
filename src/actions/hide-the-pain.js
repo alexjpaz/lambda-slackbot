@@ -61,7 +61,7 @@ const images = [
   ];
 
 module.exports = function(event) {
-  var params = event.split("&").map(e => e.split('=')).reduce((p,c) => { p[c[0]] = c[1]; return p; }, {});
+  //var params = event.split("&").map(e => e.split('=')).reduce((p,c) => { p[c[0]] = c[1]; return p; }, {});
   
   
   function getRandomImage() {
