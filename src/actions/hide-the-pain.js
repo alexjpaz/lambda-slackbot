@@ -1,7 +1,4 @@
-module.exports = function(event) {
-  var params = event.split("&").map(e => e.split('=')).reduce((p,c) => { p[c[0]] = c[1]; return p; }, {});
-  
-  var images = [
+const images = [
     "http://i.imgur.com/LbDUJDk.jpg",
     "http://i.imgur.com/am3qXZ1.jpg",
     "http://i3.kym-cdn.com/photos/images/newsfeed/000/839/199/8a9.jpg",
@@ -62,6 +59,11 @@ module.exports = function(event) {
     "https://i.imgur.com/wz6bwGj.jpg",
 
   ];
+
+module.exports = function(event) {
+  var params = event.split("&").map(e => e.split('=')).reduce((p,c) => { p[c[0]] = c[1]; return p; }, {});
+  
+  
   function getRandomImage() {
    return images[Math.floor(Math.random()*images.length)];
   }
