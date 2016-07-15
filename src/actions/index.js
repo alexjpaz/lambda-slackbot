@@ -1,7 +1,8 @@
 var actions = [
   "correlation-id",
   "slash",
-  "hide-the-pain"
+  "hide-the-pain",
+  "bees"
 ];
 
 var actionsMap = {
