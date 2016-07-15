@@ -8,7 +8,7 @@ const images = [
     "http://i.imgur.com/AHOj2rP.jpg",
     "http://ci.memecdn.com/379/8119379.jpg",
     "http://ci.memecdn.com/432/7818432.jpg",
-    "https://i.imgur.com/LbDUJDk.jpg",   
+    "https://i.imgur.com/LbDUJDk.jpg",
     "https://i.imgur.com/zcGtCQt.jpg",
     "https://i.imgur.com/VvKmF1N.jpg",
     "https://i.imgur.com/z8OGdZS.jpg",
@@ -62,14 +62,14 @@ const images = [
 
 module.exports = function(event) {
   //var params = event.split("&").map(e => e.split('=')).reduce((p,c) => { p[c[0]] = c[1]; return p; }, {});
-  
-  
+
+
   function getRandomImage() {
    return images[Math.floor(Math.random()*images.length)];
   }
-  return {
+  return event.callback({
     text: getRandomImage(),
     username: "Harold",
     icon_url: "http://i.imgur.com/7Sg9EpC.png"
-  }
+  })
 };

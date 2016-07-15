@@ -1,15 +1,23 @@
-var actions = [
-  "correlation-id",
-  "slash",
-  "hide-the-pain",
-  "bees"
-];
+const glob = require('glob');
+const path = require('path');
 
-var actionsMap = {
-};
+var actions = {};
 
-actions.forEach(function(action) {
-  actionsMap[action] = require(`./${action}`);
+glob.sync( './actions/**/*.js' ).forEach( function( file ) {
+  var name = file
+              .replace('./actions/','')
+              .replace('.js','');
+   actions[name] = require( path.resolve( file ) );
 });
 
-module.exports = actionsMap;
+module.exports = {
+  invoke: function(thing) {
+    var fn = actions[thing.name];
+
+    if(!fn) {
+      throw new Error(`Action ${thing.name} not found`);
+    }
+
+    fn(thing);
+  }
+};
