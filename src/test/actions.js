@@ -11,7 +11,12 @@ it('should hide the pain', (done) => {
   });
 });
 
-it('should bees', () => {
-  var result = actions["bees"]();
-  expect(result.username).to.equal("oprah");
+it('should bees', (done) => {
+  actions.invoke({
+    name: "bees",
+    callback: function(result) {
+      expect(result.username).to.equal("oprah");
+      done();
+    }
+  });
 });
