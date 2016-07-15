@@ -12,5 +12,21 @@ curl -X POST https://g4vlcenksd.execute-api.us-east-1.amazonaws.com/prod/{action
 curl -X POST https://g4vlcenksd.execute-api.us-east-1.amazonaws.com/prod/hide-the-pain
 ```
 
-##$ Contributing
+### Building
 
+```
+cd src
+npm install
+npm test
+```
+
+Or if you have docker:
+
+```
+make
+```
+
+### Contributing
+
+Travis CI will automatically build and deploy pushes that pass the tests.
+https://travis-ci.org/alexjpaz/lambda-slackbot
