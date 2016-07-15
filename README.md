@@ -30,3 +30,6 @@ make
 
 Travis CI will automatically build and deploy pushes that pass the tests.
 https://travis-ci.org/alexjpaz/lambda-slackbot
+
+### Further Reading
+https://api.slack.com/outgoing-webhooks
