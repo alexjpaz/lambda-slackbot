@@ -10,3 +10,8 @@ it('should bees', () => {
   var result = actions["bees"]();
   expect(result.username).to.equal("oprah");
 });
+
+it('should go fast', () => {
+  var result = actions["sanic"]();
+  expect(result.username).to.equal("Sanic");
+});
