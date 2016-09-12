@@ -3,6 +3,7 @@ var actions = [
   "slash",
   "hide-the-pain",
   "bees",
+  "debug",
   "sanic"
 ];
 
