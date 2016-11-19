@@ -57,8 +57,8 @@ const images = [
     "https://i.imgur.com/eCJHxqm.jpg",
     "https://i.imgur.com/dvboNSj.jpg",
     "https://i.imgur.com/wz6bwGj.jpg",
-    "http://i.imgur.com/9pKOfeY.gif"
-
+    "http://i.imgur.com/9pKOfeY.gif",
+    "http://i.imgur.com/CVqEFVH.gif"
   ];
 
 module.exports = function(event) {
