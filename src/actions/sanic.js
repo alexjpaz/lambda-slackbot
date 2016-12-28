@@ -6,7 +6,8 @@ const images = [
   "http://img10.deviantart.net/2c63/i/2015/116/3/8/day_26___sanic_hegehog_by_moxie2d-d8r3v0h.jpg",
   "http://vignette1.wikia.nocookie.net/sanicsource/images/e/e3/Sonicwut.jpg/revision/latest?cb=20160121233101",
   "https://67.media.tumblr.com/a2e45041814c0413b23d5a1804386267/tumblr_nztyxeHoYK1uzha9uo1_400.gif",
-  "http://i.imgur.com/Pc53i.gif"
+  "http://i.imgur.com/Pc53i.gif",
+  "http://i.imgur.com/jxUPIdD.jpg"
 ];
 
 module.exports = function(event) {
