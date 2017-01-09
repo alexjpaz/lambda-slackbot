@@ -7,7 +7,8 @@ const images = [
   "http://vignette1.wikia.nocookie.net/sanicsource/images/e/e3/Sonicwut.jpg/revision/latest?cb=20160121233101",
   "https://67.media.tumblr.com/a2e45041814c0413b23d5a1804386267/tumblr_nztyxeHoYK1uzha9uo1_400.gif",
   "http://i.imgur.com/Pc53i.gif",
-  "http://i.imgur.com/jxUPIdD.jpg"
+  "http://i.imgur.com/jxUPIdD.jpg",
+  "https://68.media.tumblr.com/tumblr_lvyehuapi31qbg1pho1_r1_400.gif"
 ];
 
 module.exports = function(event) {
