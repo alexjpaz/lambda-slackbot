@@ -57,8 +57,10 @@ const images = [
     "https://i.imgur.com/eCJHxqm.jpg",
     "https://i.imgur.com/dvboNSj.jpg",
     "https://i.imgur.com/wz6bwGj.jpg",
-    "http://i.imgur.com/9pKOfeY.gif"
-
+    "http://i.imgur.com/9pKOfeY.gif",
+    "https://thumbs.dreamstime.com/x/portrait-happy-senior-couple-gym-20855456.jpg",
+    "http://i1.kym-cdn.com/photos/images/facebook/000/854/491/b7c.jpg",
+    "http://cdn77.sadanduseless.com/wp-content/uploads/2014/09/harold2.jpg",
   ];
 
 module.exports = function(event) {
