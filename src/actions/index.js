@@ -4,7 +4,8 @@ var actions = [
   "hide-the-pain",
   "bees",
   "debug",
-  "sanic"
+  "sanic",
+  "heck"
 ];
 
 var actionsMap = {
