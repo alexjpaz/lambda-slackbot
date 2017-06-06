@@ -4,7 +4,8 @@ const images = [
   "http://i.imgur.com/k1xt5iX.jpg",
   "http://i.imgur.com/uZ764mC.jpg",
   "http://i.imgur.com/s5T8V6f.jpg",
-  "http://i.imgur.com/n9ODwnC.jpg"
+  "http://i.imgur.com/n9ODwnC.jpg",
+  "http://i.imgur.com/0b6cKVP.jpg"
 ];
 
 module.exports = function(event) {
