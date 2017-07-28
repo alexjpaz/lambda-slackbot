@@ -14,7 +14,9 @@ const images = [
   "http://i.imgur.com/BQN6191.jpg",
   "http://i.imgur.com/nFZQQyS.jpg",
   "http://i.imgur.com/H0EtSBi.jpg",
-  "https://scontent.xx.fbcdn.net/v/t1.0-9/18425421_1696945747002214_924426785056275443_n.jpg?oh=984767c2f6d92b496eb0371d19c197af&oe=59DF11B2"
+  "https://scontent.xx.fbcdn.net/v/t1.0-9/18425421_1696945747002214_924426785056275443_n.jpg?oh=984767c2f6d92b496eb0371d19c197af&oe=59DF11B2",
+  "http://i.imgur.com/Ytd33cN.jpg",
+  "http://i.imgur.com/cL5JZkS.png"
 ];
 
 module.exports = function(event) {
