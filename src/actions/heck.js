@@ -23,7 +23,8 @@ const images = [
   "http://thethings0.imgix.net/wp-content/uploads/2017/05/Borking-Doggo.jpg",
   "https://www.shitpostbot.com/img/sourceimages/happy-doggo-57b1df2fb27db.jpeg",
   "https://i.imgflip.com/1c8yl4.jpg",
-  "http://i.imgur.com/GQ2igX1.jpg"
+  "http://i.imgur.com/GQ2igX1.jpg",
+  "https://i.imgur.com/21juSck_d.jpg?maxwidth=640&shape=thumb&fidelity=low"
 ];
 
 module.exports = function(event) {
