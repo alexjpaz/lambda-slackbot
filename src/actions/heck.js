@@ -24,7 +24,8 @@ const images = [
   "https://www.shitpostbot.com/img/sourceimages/happy-doggo-57b1df2fb27db.jpeg",
   "https://i.imgflip.com/1c8yl4.jpg",
   "http://i.imgur.com/GQ2igX1.jpg",
-  "https://i.imgur.com/21juSck_d.jpg?maxwidth=640&shape=thumb&fidelity=low"
+  "https://i.imgur.com/21juSck_d.jpg?maxwidth=640&shape=thumb&fidelity=low",
+  "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/12745451_677994122303401_3210755303900264114_n.jpg?oh=a13517c26ae9c964e6ed6df4ebad39a3&oe=5A30BC39"
 ];
 
 module.exports = function(event) {
