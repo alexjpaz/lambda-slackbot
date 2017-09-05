@@ -26,7 +26,8 @@ const images = [
   "http://i.imgur.com/GQ2igX1.jpg",
   "https://i.imgur.com/21juSck_d.jpg?maxwidth=640&shape=thumb&fidelity=low",
   "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/12745451_677994122303401_3210755303900264114_n.jpg?oh=a13517c26ae9c964e6ed6df4ebad39a3&oe=5A30BC39",
-  "https://i.pinimg.com/736x/e8/d9/1a/e8d91a41797d2094f9b1262da034c227.jpg"
+  "https://i.pinimg.com/736x/e8/d9/1a/e8d91a41797d2094f9b1262da034c227.jpg",
+  "https://i.pinimg.com/originals/d9/fd/68/d9fd681a2cf1da1737f2643689c9ad47.jpg"
 ];
 
 module.exports = function(event) {
