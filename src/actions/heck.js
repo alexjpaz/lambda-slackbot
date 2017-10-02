@@ -3,6 +3,7 @@ const images = [
   "http://i.imgur.com/x5yy6LL.jpg",
   "http://i.imgur.com/k1xt5iX.jpg",
   "http://i.imgur.com/uZ764mC.jpg",
+  "https://i.imgur.com/WX8EsA0.gifv",
   "http://i.imgur.com/s5T8V6f.jpg",
   "http://i.imgur.com/n9ODwnC.jpg",
   "http://i.imgur.com/0b6cKVP.jpg",
