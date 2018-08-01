@@ -2,5 +2,8 @@
   "dependencies": {
     "express": "^4.16.3",
     "serverless-http": "^1.6.0"
+  },
+  "scripts": {
+    "test": "echo 'test'"
   }
 }
