@@ -1,4 +1,4 @@
-const actions = require('../actions/index');
+const actions = require('../src/actions');
 const expect = require('chai').expect;
 
 it('should hide the pain', () => {
