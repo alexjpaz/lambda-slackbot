@@ -1,7 +1,9 @@
 var app = require('../src/app');
 var fail = require("chai").assert.fail;
 
-const request = require('supertest')(app);
+const supertest = require('supertest');
+
+const request = supertest(process.env.BASE_URL || app);
 
 it('should invoke', async () => {
   await request.get('/sanic')
