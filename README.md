@@ -1,5 +1,8 @@
 # lambda-slackbot
-Serverless slackbot
+
+[![CircleCI](https://circleci.com/gh/alexjpaz/lambda-slackbot.svg?style=svg)](https://circleci.com/gh/alexjpaz/lambda-slackbot)
+
+> Serverless slackbot
 
 ### Invoking
 
