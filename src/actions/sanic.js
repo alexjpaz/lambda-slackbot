@@ -11,7 +11,12 @@ const images = [
   'https://i.redd.it/op1zqj9o5hdy.jpg',  
   "https://68.media.tumblr.com/tumblr_lvyehuapi31qbg1pho1_r1_400.gif",
   "https://i.redd.it/dx6x27omsjmz.jpg",
-  "http://www.digitiser2000.com/uploads/4/0/6/6/40667199/9249570_orig.png"
+  "http://www.digitiser2000.com/uploads/4/0/6/6/40667199/9249570_orig.png",
+  "https://i.kym-cdn.com/photos/images/newsfeed/000/742/417/c18.png",
+  "http://cdn.funnyisms.com/dca8fe0a-04a6-42f0-b913-345b1b153e81.gif",
+  "https://i.imgur.com/iMI7FYG.jpg",
+  "https://i.pinimg.com/originals/d6/69/73/d66973a8fe008554020965523a4bac0b.jpg",
+  "https://pa1.narvii.com/6492/3a688e113c329c1d4d0f01f0870bf2e65b1b7990_hq.gif"
 ];
 
 module.exports = function(event) {
