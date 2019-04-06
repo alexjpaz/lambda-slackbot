@@ -16,7 +16,8 @@ const images = [
   "http://cdn.funnyisms.com/dca8fe0a-04a6-42f0-b913-345b1b153e81.gif",
   "https://i.imgur.com/iMI7FYG.jpg",
   "https://i.pinimg.com/originals/d6/69/73/d66973a8fe008554020965523a4bac0b.jpg",
-  "https://pa1.narvii.com/6492/3a688e113c329c1d4d0f01f0870bf2e65b1b7990_hq.gif"
+  "https://pa1.narvii.com/6492/3a688e113c329c1d4d0f01f0870bf2e65b1b7990_hq.gif",
+  "https://i.redd.it/53jvmppcuoq21.png"
 ];
 
 module.exports = function(event) {
