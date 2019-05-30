@@ -31,7 +31,9 @@ const images = [
   "https://i.pinimg.com/736x/e8/d9/1a/e8d91a41797d2094f9b1262da034c227.jpg",
   "https://i.pinimg.com/originals/d9/fd/68/d9fd681a2cf1da1737f2643689c9ad47.jpg",
   "https://i.pinimg.com/736x/bd/da/0d/bdda0d5b42daf8990d25fb1d7f43ecdd--snek-memes-bork.jpg",
-  "https://i.redd.it/erkpekqxw3821.jpg"
+  "https://i.redd.it/erkpekqxw3821.jpg",
+  "https://i.redd.it/kc7abm2qu1f01.jpg",
+  "https://i.redd.it/dwzzqsyg9nhz.jpg",
 ];
 
 module.exports = function(event) {
