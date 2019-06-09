@@ -18,7 +18,8 @@ const images = [
   "https://i.imgur.com/iMI7FYG.jpg",
   "https://i.pinimg.com/originals/d6/69/73/d66973a8fe008554020965523a4bac0b.jpg",
   "https://pa1.narvii.com/6492/3a688e113c329c1d4d0f01f0870bf2e65b1b7990_hq.gif",
-  "https://i.redd.it/53jvmppcuoq21.png"
+  "https://i.redd.it/53jvmppcuoq21.png",
+  "https://cdnb.artstation.com/p/assets/images/images/018/581/291/large/damir-g-martin-sonic-fin-file-fin.jpg?1559903518",
 ];
 
 module.exports = function(event) {
