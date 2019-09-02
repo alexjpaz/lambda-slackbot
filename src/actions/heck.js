@@ -37,6 +37,7 @@ const images = [
   "https://i.redd.it/0lp75le4mb131.jpg",
   "https://i.redd.it/a41r2vxpxa131.jpg",
   "https://i.redd.it/jvxhuc50r9131.jpg",
+  "https://i.imgur.com/LzCxCoW_d.jpg",
 ];
 
 module.exports = function(event) {
