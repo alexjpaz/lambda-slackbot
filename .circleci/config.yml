@@ -23,9 +23,9 @@ jobs:
       - run: yarn test:integration
       - run: npm i serverless
       - run: node_modules/.bin/serverless deploy --stage dev -v | tee deploy.out
-      - run: BASE_URL=$(cat deploy.out | grep 'ServiceEndpoint' | awk '{ print $2 }') yarn test:integration -t 20000
+      - run: BASE_URL=$(cat deploy.out | grep 'ServiceEndpoint' | awk '{ print $2 }') yarn test:integration
       - run: node_modules/.bin/serverless deploy --stage production -v | tee deploy.out
-      - run: BASE_URL=$(cat deploy.out | grep 'ServiceEndpoint' | awk '{ print $2 }') yarn test:integration -t 20000
+      - run: BASE_URL=$(cat deploy.out | grep 'ServiceEndpoint' | awk '{ print $2 }') yarn test:integration
 
 workflows:
   version: 2
